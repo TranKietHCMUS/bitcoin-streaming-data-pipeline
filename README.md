@@ -1,2 +1,2 @@
-# The Real-time Dashboard
+Bitcoin Streaming Data Pipeline
 This is a personal project where I built a real-time data pipeline using **Docker Compose**. The pipeline scrapes data from two Bitcoin websites and stores it in both **MySQL** and **PostgreSQL** databases. Using **Kafka Connect** with **Debezium**, change data capture (**CDC**) is implemented to monitor updates from these databases. The collected data is then forwarded to the destination database, which is **SQLServer**. Finally, I use **Grafana** to visualize the data in the destination database, allowing for the calculation and comparison of Bitcoin prices between the two websites.
